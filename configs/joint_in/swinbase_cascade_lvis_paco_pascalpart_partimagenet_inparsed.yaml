@@ -10,22 +10,22 @@ MODEL:
     USE_ZEROSHOT_CLS_GROUP: True
     ZEROSHOT_WEIGHT_DIM: 1024
     ZEROSHOT_WEIGHT_PATH_GROUP: [
-      'datasets/metadata/lvis_v1_clip_RN50_a+cname.npy',
-      'datasets/metadata/paco_clip_RN50_a+cname.npy',
-      'datasets/metadata/pascal_part_clip_RN50_a+cname.npy',
-      'datasets/metadata/partimagenet_clip_RN50_a+cname.npy',
-      'datasets/metadata/imagenet_golden_clip_RN50_a+cname.npy',
-      'datasets/metadata/pascal_part_clip_RN50_a+cname.npy',
-      'datasets/metadata/partimagenet_clip_RN50_a+cname.npy',
-      'datasets/metadata/paco_clip_RN50_a+cname.npy',
-      'datasets/metadata/addition_part_clip_RN50_a+cname.npy',
+      '/home/timm/bachelor_ws/LLM-for-task-oriented-grasping/vlpart_ws/src/image_segmentation/src/segmentation_utils/VLPart/datasets/metadata/lvis_v1_clip_RN50_a+cname.npy',
+      '/home/timm/bachelor_ws/LLM-for-task-oriented-grasping/vlpart_ws/src/image_segmentation/src/segmentation_utils/VLPart/datasets/metadata/paco_clip_RN50_a+cname.npy',
+      '/home/timm/bachelor_ws/LLM-for-task-oriented-grasping/vlpart_ws/src/image_segmentation/src/segmentation_utils/VLPart/datasets/metadata/pascal_part_clip_RN50_a+cname.npy',
+      '/home/timm/bachelor_ws/LLM-for-task-oriented-grasping/vlpart_ws/src/image_segmentation/src/segmentation_utils/VLPart/datasets/metadata/partimagenet_clip_RN50_a+cname.npy',
+      '/home/timm/bachelor_ws/LLM-for-task-oriented-grasping/vlpart_ws/src/image_segmentation/src/segmentation_utils/VLPart/datasets/metadata/imagenet_golden_clip_RN50_a+cname.npy',
+      '/home/timm/bachelor_ws/LLM-for-task-oriented-grasping/vlpart_ws/src/image_segmentation/src/segmentation_utils/VLPart/datasets/metadata/pascal_part_clip_RN50_a+cname.npy',
+      '/home/timm/bachelor_ws/LLM-for-task-oriented-grasping/vlpart_ws/src/image_segmentation/src/segmentation_utils/VLPart/datasets/metadata/partimagenet_clip_RN50_a+cname.npy',
+      '/home/timm/bachelor_ws/LLM-for-task-oriented-grasping/vlpart_ws/src/image_segmentation/src/segmentation_utils/VLPart/datasets/metadata/paco_clip_RN50_a+cname.npy',
+      '/home/timm/bachelor_ws/LLM-for-task-oriented-grasping/vlpart_ws/src/image_segmentation/src/segmentation_utils/VLPart/datasets/metadata/addition_part_clip_RN50_a+cname.npy',
     ]
-    ZEROSHOT_WEIGHT_INFERENCE_PATH: 'datasets/metadata/partimagenet_clip_RN50_a+cname.npy'
+    ZEROSHOT_WEIGHT_INFERENCE_PATH: '/home/timm/bachelor_ws/LLM-for-task-oriented-grasping/vlpart_ws/src/image_segmentation/src/segmentation_utils/VLPart/datasets/metadata/partimagenet_clip_RN50_a+cname.npy'
     IGNORE_ZERO_CATS_GROUP: [False, False, False, False, False, False, False, False, False]
     USE_FED_LOSS_GROUP: [True, True, False, False, False, False, False, False, False]
     CAT_FREQ_PATH_GROUP: [
-      'datasets/metadata/lvis_v1_train_cat_info.json',
-      'datasets/metadata/paco_lvis_v1_train_cat_info.json',
+      '/home/timm/bachelor_ws/LLM-for-task-oriented-grasping/vlpart_ws/src/image_segmentation/src/segmentation_utils/VLPart/datasets/metadata/lvis_v1_train_cat_info.json',
+      '/home/timm/bachelor_ws/LLM-for-task-oriented-grasping/vlpart_ws/src/image_segmentation/src/segmentation_utils/VLPart/datasets/metadata/paco_lvis_v1_train_cat_info.json',
       '', '', '', '', '', '', ''
     ]
     NOUNS_LOSS_WEIGHT: 0.1
